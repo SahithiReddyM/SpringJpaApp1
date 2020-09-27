@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <property name="HOME_LOG" value="C:\\Users\\mitp\\Desktop\\PSI\\eclipse-workspace\\spring-data-jpa-app\\log\\app.log"/>
+    <property name="HOME_LOG" value="C:\\log\\app.log"/>
 
     <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${HOME_LOG}</file>
